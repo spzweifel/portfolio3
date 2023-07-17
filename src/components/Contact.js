@@ -15,9 +15,10 @@ const Contact = () => {
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
+    const { target } = e;
     const inputType = target.id;
     const inputValue = target.Value;
-    const { target } = e;
+
 
     if (inputType === "name") {
       setName(inputValue);
