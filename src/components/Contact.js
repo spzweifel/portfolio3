@@ -95,3 +95,7 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
+//learn how to actually access and see the messages left
