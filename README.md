@@ -15,7 +15,8 @@ This portfolio is a rough draft model. I used React to make it and included link
 
 ## Usage
 
-
+[!screenshot](<src/resources/images/Screenshot (33).png>)
+https://spzweifel.github.io/portfolio3/
 
 ## Technology Used
 
