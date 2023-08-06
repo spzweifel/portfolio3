@@ -3,6 +3,13 @@ import React from "react";
 const Projects = () => {
   return (
     <div>
+      <section className="project6">
+        <a href="">
+          Daily Calm
+        </a>
+        <img src={require("../resources/images/DailyCalm.png")}
+        alt="Daily Calm"></img>
+      </section>
       <section className="project1">
         <a
           href="https://murmuring-everglades-34555.herokuapp.com/"
