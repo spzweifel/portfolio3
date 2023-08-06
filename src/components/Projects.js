@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div>
       <section className="project6">
-        <a href="">
+        <a href="https://daily-calm-2023-be74e09f75dd.herokuapp.com/">
           Daily Calm
         </a>
         <img src={require("../resources/images/DailyCalm.png")}
