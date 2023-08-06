@@ -1,6 +1,6 @@
 import React from 'react';
-// maybe make an about.css and import here? Think about it more.
-import pic from '../resources/images/triskelion.png';
+import "bulma/css/bulma.min.css";
+import pic from '../resources/images/profilePic.jpg';
 
 const About = () => {
     return (
@@ -10,7 +10,10 @@ const About = () => {
                     <h1>About Me</h1>
                 </div>
                 {/* get this image to start working correctly*/}
-                <img src={pic} alt='triskelion'/>
+                <img 
+                    src={pic} 
+                    alt='triskelion'
+                    style={{ width: "200px", height: "200px" }}/>
                 <p>My name is Sean, an aspiring fullstack developer based in Richmond, Virginia, USA. I originally graduated from Virginia Commonwealth University with a bachelors of science in forensic science with a chemistry minor. I have been working extensively over the past 4 years in gun crime intelligence in Richmond City. After a short but rewarding career in forensics, I've decided to make the transition to web development. Although, I'm new to this field, I'm excited to see where it takes me and to help improve where ever I can.</p>
             </div>
         </section>
