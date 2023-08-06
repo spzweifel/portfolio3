@@ -52,9 +52,6 @@ const Projects = () => {
           alt="Employee Tracker"
         ></img>
       </section>
-      <section className="project6">
-        <a href="https://github.com/spzweifel/employee_tracker">Employee Tracker</a>
-      </section>
     </div>
   );
 };
