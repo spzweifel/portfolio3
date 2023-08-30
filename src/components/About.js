@@ -10,6 +10,9 @@ const About = () => {
                 <div className='header1'>
                     <h1>Sean P. Zweifel</h1>
                 </div>
+                <div className='header2'>
+                    <h1>Reach me at this email: spzweifel@gmail.com</h1>
+                </div>
                 <div className="profile-container">
                     <img 
                         src={pic} 

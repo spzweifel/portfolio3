@@ -1,0 +1,30 @@
+/* Projects.css */
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.project-title {
+  margin-bottom: 10px;
+}
+
+.project-screenshot {
+  max-width: 100%;
+  text-align: center;
+}
+
+.project-screenshot img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add any additional styling you need */

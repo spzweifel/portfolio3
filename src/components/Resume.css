@@ -1,6 +1,8 @@
 .resume-container {
     text-align: center;
-    margin-top: 20px; /* Add spacing at the top */
+    margin-top: 20px; 
+    background-color: #f1f1f1;
+    right: 0;
   }
   
   .resume-title {

@@ -1,56 +1,65 @@
 import React from "react";
+import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div>
-      <section className="project6">
-        <a href="https://daily-calm-2023-be74e09f75dd.herokuapp.com/">
-          Daily Calm
-        </a>
-        <img src={require("../resources/images/DailyCalm.png")}
-        alt="Daily Calm"></img>
+    <div className="projects-container">
+      <section className="project">
+        <div className="project-title">
+          <a href="https://github.com/ckc2007/DailyCalm">
+            Daily Calm, myself as a contributor
+          </a>
+        </div>
+        <div className="project-screenshot">
+          <img
+            src={require("../resources/images/DailyCalm.png")}
+            alt="Daily Calm"
+          />
+        </div>
       </section>
-      <section className="project1">
-        <a
-          href="https://murmuring-everglades-34555.herokuapp.com/"
-          className="techBlog"
-        >
-          Tech Blog
-        </a>
-        <img
-          src={require("../resources/images/Techblog4.png")}
-          alt="Tech Blog"
-        />
+      <section className="project">
+        <div className="project-title">
+          <a href="https://github.com/spzweifel/tech-blog">Tech Blog</a>
+        </div>
+        <div className="project-screenshot">
+          <img
+            src={require("../resources/images/Techblog4.png")}
+            alt="Tech Blog"
+          />
+        </div>
       </section>
-      <section className="project2">
-        <a href="https://spzweifel.github.io/Weather-Dashboard/">
-          Weather Dashboard
-        </a>
+      <section className="project">
+        <div className="project-title">
+          <a href="https://spzweifel.github.io/Weather-Dashboard/">
+            Weather Dashboard
+          </a>
+        </div>
+        <div className="project-screenshot">
         <img
           src={require("../resources/images/weatherDash.png")}
           alt="Weather Dashboard"
-        ></img>
+        />
+        </div>
       </section>
-      <section className="project3">
-        <a href="https://github.com/spzweifel/Work-day">Work Day</a>
+      <section className="project">
+        <div className="project-title">
+        <a href="https://spzweifel.github.io/Work-day/">Work Day</a>
         <img
           src={require("../resources/images/workDay.png")}
           alt="Work Day"
-        ></img>
+        />
+        </div>
       </section>
-      <section className="project4">
-        <a href="https://github.com/spzweifel/Code_Quiz">Code Quiz</a>
-        <img
-          src={require("../resources/images/codeQuiz.png")}
-          alt="Code Quiz"
-        ></img>
-      </section>
-      <section className="project5">
-        <a href="https://github.com/spzweifel/employee_tracker">Employee Tracker</a>
+      <section className="project">
+        <div className="project-title">
+        <a href="https://github.com/spzweifel/employee_tracker">
+          Employee Tracker
+        </a>
         <img
           src={require("../resources/images/codeQuiz.png")}
           alt="Employee Tracker"
-        ></img>
+        />
+        </div>
       </section>
     </div>
   );

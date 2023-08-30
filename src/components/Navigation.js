@@ -11,7 +11,7 @@ function Navigation({ handlePageChange }) {
               Contact Me Here
           </a>
           <a href="#Projects" onClick={() => handlePageChange("Projects")}>
-              Find a Few of My Projects Here
+              View Some Deployed and Github Based Projects Here 
           </a>
           <a href="#Resume" onClick={() => handlePageChange("Resume")}>
               Find My Resume Here
