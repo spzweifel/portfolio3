@@ -1,22 +1,20 @@
 import ResumePDF from "../utils/Resume.pdf";
 import React from "react";
+import "./Resume.css";
 
 const Resume = () => {
   return (
-    <div className="resume1">
-      <div className="container">
-        <span className="title">
-          <h3>
-            Find my{" "}
+    <div className="resume-container">
+      <h3 className="resume-title">
+        <small>Find my{" "}
             <a className="resume2" href={ResumePDF}>
               resume
             </a>{" "}
-            here
-          </h3>
-        </span>
-        <p className="proficiencies">
-          I am proficient in:
-          <ol className="technologies">
+            here</small>
+      </h3>
+      <div className="proficiencies">
+        <p className="proficiencies-title">I am proficient in:</p>
+        <ol className="technologies">
             <li>HTML & CSS</li>
             <li>Bootstrap</li>
             <li>JavaScript</li>
@@ -33,8 +31,7 @@ const Resume = () => {
             <li>Server Side API & Third Party API</li>
             <li>Backend Development</li>
             <li>Full Stack Development</li>
-          </ol>
-        </p>
+            </ol>
       </div>
     </div>
   );

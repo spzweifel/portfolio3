@@ -1,0 +1,40 @@
+.resume-container {
+    text-align: center;
+    margin-top: 20px; /* Add spacing at the top */
+  }
+  
+  .resume-title {
+    font-size: 20px;
+  }
+  
+  .resume-title small {
+    display: block;
+    font-size: 20px;
+  }
+  
+  .resume-link {
+    display: block;
+    font-size: 20px;
+    margin-top: 5px; /* Add spacing above the resume link */
+  }
+  
+  .proficiencies {
+    text-align: center;
+    margin-top: 20px; /* Add spacing above the list */
+  }
+  
+  .proficiencies-title {
+    font-weight: bold;
+  }
+  
+  .technologies {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  /* Additional styling for list items if needed */
+  .technologies li {
+    margin-bottom: 5px;
+  }
+  

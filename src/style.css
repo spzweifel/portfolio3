@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+}
+
+.about {
+    flex: 1; /* Allow the About section to grow */
+    margin-right: 20px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    width: 200px;
+}
+
+.content {
+    flex: 3; /* Allow the content section to grow */
+}
