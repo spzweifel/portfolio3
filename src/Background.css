@@ -1,0 +1,21 @@
+/* background.css */
+
+body, html {
+    height: 100%; /* Ensure both body and html take 100% of viewport height */
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+  }
+
+body {
+    background-image: url('./resources/images/Richmond4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  /* background.css */
+
+
+ 

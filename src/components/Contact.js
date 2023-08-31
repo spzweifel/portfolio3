@@ -1,13 +1,8 @@
-// WHEN I am presented with the Contact section
-// THEN I see a contact form with fields for a name, an email address, and a message
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required
-// WHEN I enter text into the email address field
-
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 import { send } from "emailjs-com";
 import { Button } from "react-bootstrap";
+import "./Contact.css";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -40,13 +35,23 @@ function ContactForm() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    
     const isValid = validateEmail(formState.email);
+    console.log(email)
+    const templateParams = {
+      from_name: formState.name,
+     message: formState.message,
+     reply_to: formState.email
+}
+console.log(templateParams)
+console.log(isValid)
+
     if (isValid) {
       send(
-        "service_457ye8d",
-        "template_5rk1pqp",
-        formState,
-        "lCsjJd6yV07nOzYOq"
+        "service_98xy2dk",
+        "template_m1xtsrq",
+        templateParams,
+        "Obw9fk-2mmeTJBvdg"
       ).then(
         (result) => {
           console.log(result.text);
@@ -59,67 +64,73 @@ function ContactForm() {
       );
     }
   }
-  // console.log(formState);
   return (
     <div className="row">
-      <h2 className="my-3">Contact me</h2>
+      <h2 className="my-3 contact-form-text3">Contact me</h2>
       <section className="col-12 col-md-6 d-block">
-      <br></br>
-      
-      <h2>Email Sean</h2>
-      <br></br>
-      
-      <a href="mailto:spzweifel@gmail.com"><Button className="text-light">spzweifel@gmail.com</Button></a>
+        <br />
+
+        <h2 className="contact-form-text">Click The Button Below to Email Sean Directly</h2>
+        <br />
+
+        <a href="mailto:spzweifel@gmail.com" className="email">
+          <Button className="contact-form-text1">spzweifel@gmail.com</Button>
+        </a>
       </section>
-    <section className="col-12 col-md-6">
-      
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label className="label m-1 d-block" htmlFor="name">
-            <div className="formLabel">Name:</div>
-          </label>
-          <input
-            className="form-control"
-            type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label className="label m-1 d-block" htmlFor="email">
-          <div className="formLabel">Email address:</div>
-          </label>
-          <input
-            className="form-control"
-            type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label className="label m-1 d-block" htmlFor="name">
-          <div className="formLabel">Message:</div>
-          </label>
-          <textarea
-            className="form-control"
-            name="message"
-            rows="4"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </div>
-        {errorMessage && (
+      <br />
+      <section>
+        <h2 className="contact-form-text">Alternatively, Fill Out The Form Below</h2>
+      </section>
+      <section className="text col-12 col-md-6">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <label className="m-1 d-block contact-form-text" htmlFor="name">
+              <div className="formLabel">Name:</div>
+            </label>
+            <input
+              className="form-control1 contact-form-text"
+              type="text"
+              name="name"
+              defaultValue={name}
+              placeholder="What is your name?"
+              onBlur={handleChange}
+            />
           </div>
-        )} 
-        <br></br>
-        <Button type="submit">Submit</Button>
-       
-      </form>
-    </section>
+          <div>
+            <label className="m-1 d-block contact-form-text" htmlFor="email">
+              <div className="formLabel">Email address:</div>
+            </label>
+            <input
+              className="form-control1 contact-form-text"
+              type="text"
+              name="email"
+              defaultValue={email}
+              placeholder="What is your email?"
+              onBlur={handleChange}
+            />
+          </div>
+          <div>
+            <label className="m-1 d-block contact-form-text" htmlFor="message">
+              <div className="formLabel">Message:</div>
+            </label>
+            <textarea
+              className="form-control contact-form-text"
+              name="message"
+              rows="4"
+              defaultValue={message}
+              placeholder="Leave your message here!"
+              onBlur={handleChange}
+            />
+          </div>
+          {errorMessage && (
+            <div>
+              <p className="error-text contact-form-text">{errorMessage}</p>
+            </div>
+          )}
+          <br />
+          <Button type="submit" className="contact-form-text2">Submit</Button>
+        </form>
+      </section>
     </div>
   );
 }

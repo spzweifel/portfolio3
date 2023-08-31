@@ -21,7 +21,7 @@ const About = () => {
                         className='centered-image'
                     />
                 </div>
-                <p>My name is Sean, an aspiring fullstack developer based in Richmond, Virginia, USA. I originally graduated from Virginia Commonwealth University with a bachelors of science in forensic science with a chemistry minor. I have been working extensively over the past 4 years in gun crime intelligence in Richmond City. After a short but rewarding career in forensics, I've decided to make the transition to web development. Although, I'm new to this field, I'm excited to see where it takes me and to help improve wherever I can.</p>
+                <p className='text'>My name is Sean, an aspiring fullstack developer based in Richmond, Virginia. I originally graduated from Virginia Commonwealth University with a bachelors of science in forensic science with a chemistry minor. I have been working extensively over the past 4 years in gun crime intelligence in Richmond City. After a short but rewarding career in forensics, I've decided to make the transition to web development. Although, I'm new to this field, I'm excited to see where it takes me and to help improve wherever I can.</p>
             </div>
         </section>
     );
@@ -30,5 +30,3 @@ const About = () => {
 
 export default About;
 
-
-// in this section, think about adding a professional picture or avatar. Use a picture preferably. Also, don't be afraid to rewrite the about me paragraph. Think of ways to make this look pretty and not too germanic.

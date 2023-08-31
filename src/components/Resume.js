@@ -6,14 +6,13 @@ const Resume = () => {
   return (
     <div className="resume-container">
       <h3 className="resume-title">
-        <small>Find my{" "}
-            <a className="resume2" href={ResumePDF}>
-              resume
-            </a>{" "}
-            here</small>
+        Find my resume here
       </h3>
+      <a className="resume-button" href={ResumePDF} target="_blank" rel="noopener noreferrer">
+        View My Resume
+      </a>
       <div className="proficiencies">
-        <p className="proficiencies-title">I am proficient in:</p>
+        <p className="technologies1">I Am Proficient In These Technologies And More</p>
         <ol className="technologies">
             <li>HTML & CSS</li>
             <li>Bootstrap</li>
@@ -38,3 +37,12 @@ const Resume = () => {
 };
 
 export default Resume;
+
+
+    //  <h3 className="resume-title">
+    //     <small>Find my{" "}
+    //         <a className="resume2" href={ResumePDF}>
+    //           resume
+    //         </a>{" "}
+    //         here</small>
+    //   </h3>

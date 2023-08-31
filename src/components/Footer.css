@@ -1,13 +1,13 @@
 .footer {
     display: flex;
-    justify-content: center;
-    align-items: flex-end; /* Align items to the bottom */
-    padding: 20px;
-    background-color: #f1f1f1;
-    position: fixed; /* Fix the footer to the bottom */
+    justify-content: flex-start; 
+    align-items: flex-end;
+    padding: .001%;
+    background-color: inherit;
+    position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100%; 
 }
 
 .footer a {

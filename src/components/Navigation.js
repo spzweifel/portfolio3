@@ -1,22 +1,24 @@
 import React from "react";
-import './Navigation.css';
+import "./Navigation.css";
 
-function Navigation({ handlePageChange }) {
+function Navigation({ currentPage, handlePageChange }) {
   return (
-      <nav className="navigation">
-          <a href="#About" onClick={() => handlePageChange("About")}>
-              About Me
-          </a>
-          <a href="#Contact" onClick={() => handlePageChange("Contact")}>
-              Contact Me Here
-          </a>
-          <a href="#Projects" onClick={() => handlePageChange("Projects")}>
-              View Some Deployed and Github Based Projects Here 
-          </a>
-          <a href="#Resume" onClick={() => handlePageChange("Resume")}>
-              Find My Resume Here
-          </a>
-      </nav>
+    <nav className="navigation">
+      {currentPage !== "About" && (
+        <a href="#About" onClick={() => handlePageChange("About")}>
+          Home
+        </a>
+      )}
+      <a href="#Contact" onClick={() => handlePageChange("Contact")}>
+        Contact Me
+      </a>
+      <a href="#Projects" onClick={() => handlePageChange("Projects")}>
+        My Projects
+      </a>
+      <a href="#Resume" onClick={() => handlePageChange("Resume")}>
+        My Resume
+      </a>
+    </nav>
   );
 }
 

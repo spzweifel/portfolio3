@@ -9,7 +9,9 @@ import Footer from "./components/Footer";
 function Frontpage() {
   const [currentPage, setCurrentPage] = useState("About");
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
 
   // Define content components for each tab
   const contentComponents = {
@@ -22,7 +24,10 @@ function Frontpage() {
   return (
     <div className="container">
       <div className="left-side">
-        <Navigation handlePageChange={handlePageChange} />
+        <Navigation
+          currentPage={currentPage} // Pass the currentPage state
+          handlePageChange={handlePageChange} // Pass the handlePageChange function
+        />
       </div>
       <div className="right-side">
         {contentComponents[currentPage]}
@@ -33,4 +38,5 @@ function Frontpage() {
 }
 
 export default Frontpage;
+
 

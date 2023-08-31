@@ -1,42 +1,60 @@
-.resume-container {
-    text-align: center;
-    margin-top: 20px; 
-    background-color: #f1f1f1;
-    right: 0;
-  }
-  
-  .resume-title {
-    font-size: 20px;
-  }
-  
-  .resume-title small {
-    display: block;
-    font-size: 20px;
-  }
-  
-  .resume-link {
-    display: block;
-    font-size: 20px;
-    margin-top: 5px; /* Add spacing above the resume link */
-  }
-  
-  .proficiencies {
-    text-align: center;
-    margin-top: 20px; /* Add spacing above the list */
-  }
-  
-  .proficiencies-title {
-    font-weight: bold;
-  }
-  
-  .technologies {
-    text-align: left;
-    margin-top: 10px;
-    padding-left: 20px;
-  }
-  
-  /* Additional styling for list items if needed */
-  .technologies li {
-    margin-bottom: 5px;
-  }
-  
+.resume-title {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  font-size: 30px;
+}
+
+.resume-link {
+  display: block;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.proficiencies {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.proficiencies-title {
+  font-weight: bold;
+}
+
+.technologies {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.technologies1 {
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.technologies li {
+  margin-bottom: 5px;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: white;
+  text-decoration: none; 
+  border: none; 
+  border-radius: 15px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.resume-button:hover {
+  background-color: #0056b3;
+}

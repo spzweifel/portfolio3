@@ -1,0 +1,47 @@
+.contact-form-text {
+  color: white; 
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+}
+
+.contact-form-text1 {
+  background-color: gray;
+  text-decoration-color: black;
+  border-radius: 15px;
+}
+
+.contact-form-text2 {
+  color: white; 
+  background-color: #007bff; 
+  padding: 8px 16px; 
+  font-size: 12px; 
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+  border-radius: 15px;
+}
+
+.contact-form-text2:hover {
+  color: white; 
+  background-color: blue; 
+}
+
+.contact-form-text::placeholder {
+  opacity: 0.5;
+  color: #808080;
+}
+
+.contact-form-text3 {
+  color: white; 
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.form-control {
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.form-control1 {
+  border-radius: 15px;
+}

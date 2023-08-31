@@ -6,9 +6,9 @@ const Projects = () => {
     <div className="projects-container">
       <section className="project">
         <div className="project-title">
-          <a href="https://github.com/ckc2007/DailyCalm">
+          <button className="project-button" onClick={() => window.open("https://github.com/ckc2007/DailyCalm")}>
             Daily Calm, myself as a contributor
-          </a>
+          </button>
         </div>
         <div className="project-screenshot">
           <img
@@ -19,46 +19,50 @@ const Projects = () => {
       </section>
       <section className="project">
         <div className="project-title">
-          <a href="https://github.com/spzweifel/tech-blog">Tech Blog</a>
+          <button className="project-button" onClick={() => window.open("https://github.com/spzweifel/Password_Generator")}>
+            Password Generator
+          </button>
         </div>
         <div className="project-screenshot">
           <img
-            src={require("../resources/images/Techblog4.png")}
-            alt="Tech Blog"
+            src={require("../resources/images/password.png")}
+            alt="Password Generator"
           />
         </div>
       </section>
       <section className="project">
         <div className="project-title">
-          <a href="https://spzweifel.github.io/Weather-Dashboard/">
+          <button className="project-button" onClick={() => window.open("https://github.com/spzweifel/Weather-Dashboard")}>
             Weather Dashboard
-          </a>
+          </button>
         </div>
         <div className="project-screenshot">
-        <img
-          src={require("../resources/images/weatherDash.png")}
-          alt="Weather Dashboard"
-        />
+          <img
+            src={require("../resources/images/weatherDash.png")}
+            alt="Weather Dashboard"
+          />
         </div>
       </section>
       <section className="project">
         <div className="project-title">
-        <a href="https://spzweifel.github.io/Work-day/">Work Day</a>
-        <img
-          src={require("../resources/images/workDay.png")}
-          alt="Work Day"
-        />
+          <button className="project-button" onClick={() => window.open("https://github.com/spzweifel/Work-day")}>
+            Work Day
+          </button>
+          <img
+            src={require("../resources/images/workDay.png")}
+            alt="Work Day"
+          />
         </div>
       </section>
       <section className="project">
         <div className="project-title">
-        <a href="https://github.com/spzweifel/employee_tracker">
-          Employee Tracker
-        </a>
-        <img
-          src={require("../resources/images/codeQuiz.png")}
-          alt="Employee Tracker"
-        />
+          <button className="project-button" onClick={() => window.open("https://github.com/spzweifel/Code_Quiz")}>
+            Coding Quiz
+          </button>
+          <img
+            src={require("../resources/images/codeQuiz.png")}
+            alt="Coding Quiz"
+          />
         </div>
       </section>
     </div>

@@ -7,11 +7,22 @@
 }
 
 .centered-image {
-    /* Add any additional styling for the image here */
-    margin: 20px auto; /* This will center the image horizontally */
+    margin: 20px auto; 
 }
 
 .header1 {
     text-decoration: underline;
     font-size: 30px;
+    color: white; 
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+}
+
+.header2 {
+    color: white; /* Set the text color to white */
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+}
+
+.text {
+    color: white; /* Set the text color to white */
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
 }
