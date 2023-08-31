@@ -13,7 +13,6 @@ function Frontpage() {
     setCurrentPage(page);
   };
 
-  // Define content components for each tab
   const contentComponents = {
     About: <About />,
     Contact: <Contact />,
@@ -25,8 +24,8 @@ function Frontpage() {
     <div className="container">
       <div className="left-side">
         <Navigation
-          currentPage={currentPage} // Pass the currentPage state
-          handlePageChange={handlePageChange} // Pass the handlePageChange function
+          currentPage={currentPage} 
+          handlePageChange={handlePageChange} 
         />
       </div>
       <div className="right-side">

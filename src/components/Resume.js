@@ -37,12 +37,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
-
-    //  <h3 className="resume-title">
-    //     <small>Find my{" "}
-    //         <a className="resume2" href={ResumePDF}>
-    //           resume
-    //         </a>{" "}
-    //         here</small>
-    //   </h3>

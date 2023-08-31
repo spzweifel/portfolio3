@@ -1,9 +1,8 @@
 .about {
-    /* Add necessary styling to your .about container */
     display: flex;
     flex-direction: column;
-    align-items: center; /* This will center the content horizontally */
-    text-align: center; /* This will center the text content */
+    align-items: center;
+    text-align: center; 
 }
 
 .centered-image {
@@ -18,11 +17,11 @@
 }
 
 .header2 {
-    color: white; /* Set the text color to white */
+    color: white; 
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
 }
 
 .text {
-    color: white; /* Set the text color to white */
+    color: white;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
 }

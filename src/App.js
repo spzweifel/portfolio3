@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Frontpage from './Frontpage';
-import Navigation from './components/Navigation'; // Import the Navigation component
+import Navigation from './components/Navigation'; 
 
 function App() {
     const [currentPage, setCurrentPage] = useState("About");
@@ -15,7 +15,7 @@ function App() {
 
     return (
         <div>
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> {/* Add the Navigation component */}
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             <Header />
             <Frontpage />
             <Footer />

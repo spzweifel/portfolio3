@@ -1,9 +1,7 @@
-/* background.css */
-
 body, html {
-    height: 100%; /* Ensure both body and html take 100% of viewport height */
-    margin: 0; /* Reset default margin */
-    padding: 0; /* Reset default padding */
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
   }
 
 body {
@@ -13,9 +11,3 @@ body {
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
   }
-  
-
-  /* background.css */
-
-
- 
