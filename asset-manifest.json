@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio3/static/css/main.fcdde1b4.css",
-    "main.js": "/portfolio3/static/js/main.274ac0f0.js",
+    "main.css": "/portfolio3/static/css/main.8cd00844.css",
+    "main.js": "/portfolio3/static/js/main.62af0735.js",
+    "static/media/Richmond4.jpg": "/portfolio3/static/media/Richmond4.f28ba86b6c1bf876d8c1.jpg",
     "static/media/DailyCalm.png": "/portfolio3/static/media/DailyCalm.dd06556b9e03b9cd45ca.png",
     "static/media/profilePic.jpg": "/portfolio3/static/media/profilePic.93cb539d1905ed5466a3.jpg",
     "static/media/codeQuiz.png": "/portfolio3/static/media/codeQuiz.f288153d28b13891c4a7.png",
     "static/media/Resume.pdf": "/portfolio3/static/media/Resume.4a3edd1deca7c6af9cfd.pdf",
     "static/media/weatherDash.png": "/portfolio3/static/media/weatherDash.0a48d1c772091a71f93e.png",
     "static/media/workDay.png": "/portfolio3/static/media/workDay.6ad2d30a822be01bbb67.png",
-    "static/media/Techblog4.png": "/portfolio3/static/media/Techblog4.8cbd7d74aa55088b7b67.png",
+    "static/media/password.png": "/portfolio3/static/media/password.8af27852b9d262f60d84.png",
     "static/media/github.svg": "/portfolio3/static/media/github.b392d3de7d0aa5a1bafd5fc613ae5754.svg",
     "index.html": "/portfolio3/index.html",
     "static/media/linkedin.svg": "/portfolio3/static/media/linkedin.971ce7eb214c5605a8388234de1dab86.svg",
-    "main.fcdde1b4.css.map": "/portfolio3/static/css/main.fcdde1b4.css.map",
-    "main.274ac0f0.js.map": "/portfolio3/static/js/main.274ac0f0.js.map"
+    "main.8cd00844.css.map": "/portfolio3/static/css/main.8cd00844.css.map",
+    "main.62af0735.js.map": "/portfolio3/static/js/main.62af0735.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcdde1b4.css",
-    "static/js/main.274ac0f0.js"
+    "static/css/main.8cd00844.css",
+    "static/js/main.62af0735.js"
   ]
 }
