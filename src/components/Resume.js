@@ -12,7 +12,7 @@ const Resume = () => {
         View My Resume
       </a>
       <div className="proficiencies">
-        <p className="technologies1">I Am Proficient In These Technologies And More</p>
+        <p className="technologies1">I Am Proficient In These Technologies</p>
         <ol className="technologies">
             <li>HTML & CSS</li>
             <li>Bootstrap</li>

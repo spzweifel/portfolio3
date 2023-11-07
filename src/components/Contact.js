@@ -92,7 +92,7 @@ console.log(isValid)
               type="text"
               name="name"
               defaultValue={name}
-              placeholder="What is your name?"
+              // placeholder="What is your name?"
               onBlur={handleChange}
             />
           </div>
@@ -105,7 +105,7 @@ console.log(isValid)
               type="text"
               name="email"
               defaultValue={email}
-              placeholder="What is your email?"
+              // placeholder="What is your email?"
               onBlur={handleChange}
             />
           </div>
@@ -118,7 +118,7 @@ console.log(isValid)
               name="message"
               rows="4"
               defaultValue={message}
-              placeholder="Leave your message here!"
+              // placeholder="Leave your message here!"
               onBlur={handleChange}
             />
           </div>

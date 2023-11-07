@@ -1,18 +1,19 @@
 {
   "name": "portfolio3",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "private": true,
   "homepage": "https://spzweifel.github.io/portfolio3",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.1",
+    "bootstrap": "^5.3.2",
     "bulma": "^0.9.4",
     "emailjs-com": "^3.2.0",
     "gh-pages": "^5.0.0",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.8.0",
+    "react-bootstrap": "^2.9.1",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
